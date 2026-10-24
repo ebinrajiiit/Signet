@@ -8,7 +8,7 @@
 
 *Your files never leave your computer.*
 
-[**Try it in your browser →**](https://ebinrajiiit.github.io/signet/) &nbsp;·&nbsp; [**Download →**](https://github.com/ebinrajiiit/signet/releases/latest)
+[**Try it in your browser →**](https://ebinrajiiit.github.io/pdf_suite/) &nbsp;·&nbsp; [**Download →**](https://github.com/ebinrajiiit/pdf_suite/releases/latest)
 
 </div>
 
@@ -68,12 +68,13 @@ the software holding its students' records without taking anyone's word for it.
 
 | Platform | File |
 | --- | --- |
-| macOS (Intel and Apple silicon) | `.dmg` |
-| Windows | `.msi` |
-| Linux | `.deb` / `.AppImage` |
-| Self-host the web app | `signet-web.tar.gz` |
+| macOS (Intel and Apple silicon) | `Signet_0.1.0_universal.dmg` — 30 MB |
+| Windows | `Signet_0.1.0_x64_en-US.msi` — 14 MB |
+| Linux (Debian, Ubuntu) | `Signet_0.1.0_amd64.deb` — 14 MB |
+| Linux (anything else) | `Signet_0.1.0_amd64.AppImage` — 94 MB |
+| Self-host the web app | `signet-web.tar.gz` — 13 MB |
 
-**[Get the latest release →](https://github.com/ebinrajiiit/signet/releases/latest)**
+**[Get the latest release →](https://github.com/ebinrajiiit/pdf_suite/releases/latest)**
 
 Nothing is code-signed yet, so macOS and Windows will warn on first open. Check
 your download against `SHA256SUMS` in the release.
@@ -83,7 +84,7 @@ which is why the downloads are large — and why OCR works with the network off.
 
 ## Try it first
 
-**[ebinrajiiit.github.io/signet →](https://ebinrajiiit.github.io/signet/)**
+**[ebinrajiiit.github.io/pdf_suite →](https://ebinrajiiit.github.io/pdf_suite/)**
 
 The same app, with one thing removed: it will not write a file. Open a PDF,
 edit it, mark it up, redact it, run OCR — and when you want to keep the result,
