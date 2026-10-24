@@ -68,11 +68,11 @@ the software holding its students' records without taking anyone's word for it.
 
 | Platform | File |
 | --- | --- |
-| macOS (Intel and Apple silicon) | `Signet_0.1.0_universal.dmg` — 30 MB |
-| Windows | `Signet_0.1.0_x64_en-US.msi` — 14 MB |
-| Linux (Debian, Ubuntu) | `Signet_0.1.0_amd64.deb` — 14 MB |
-| Linux (anything else) | `Signet_0.1.0_amd64.AppImage` — 94 MB |
-| Self-host the web app | `signet-web.tar.gz` — 13 MB |
+| macOS (Intel and Apple silicon) | `…_universal.dmg` — about 30 MB |
+| Windows | `…_x64_en-US.msi` — about 14 MB |
+| Linux (Debian, Ubuntu) | `…_amd64.deb` — about 14 MB |
+| Linux (anything else) | `…_amd64.AppImage` — about 94 MB |
+| Self-host the web app | `signet-web.tar.gz` — about 13 MB |
 
 **[Get the latest release →](https://github.com/ebinrajiiit/Signet/releases/latest)**
 
