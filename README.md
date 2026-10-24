@@ -8,7 +8,7 @@
 
 *Your files never leave your computer.*
 
-[**Try it in your browser →**](https://ebinrajiiit.github.io/pdf_suite/) &nbsp;·&nbsp; [**Download →**](https://github.com/ebinrajiiit/pdf_suite/releases/latest)
+[**Try it in your browser →**](https://ebinrajiiit.github.io/pdf_suite/) &nbsp;·&nbsp; [**Download →**](https://github.com/ebinrajiiit/Signet/releases/latest)
 
 </div>
 
@@ -74,7 +74,7 @@ the software holding its students' records without taking anyone's word for it.
 | Linux (anything else) | `Signet_0.1.0_amd64.AppImage` — 94 MB |
 | Self-host the web app | `signet-web.tar.gz` — 13 MB |
 
-**[Get the latest release →](https://github.com/ebinrajiiit/pdf_suite/releases/latest)**
+**[Get the latest release →](https://github.com/ebinrajiiit/Signet/releases/latest)**
 
 Nothing is code-signed yet, so macOS and Windows will warn on first open. Check
 your download against `SHA256SUMS` in the release.
