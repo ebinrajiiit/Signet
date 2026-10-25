@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="docs/lockup.png" alt="FACTS-H Lab" width="96">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/lockup-light.png">
+  <img src="docs/lockup-dark.png" alt="FACTS-H Lab" width="96">
+</picture>
 
 # Signet
 
@@ -66,21 +69,62 @@ the software holding its students' records without taking anyone's word for it.
 
 ## Download
 
-| Platform | File |
+**[Open the latest release →](https://github.com/ebinrajiiit/Signet/releases/latest)**,
+then pick the one file that matches your computer. If you are not sure which you
+have, the first column says how to tell.
+
+### On a Mac
+
+| | |
 | --- | --- |
-| macOS (Intel and Apple silicon) | `…_universal.dmg` — about 30 MB |
-| Windows | `…_x64_en-US.msi` — about 14 MB |
-| Linux (Debian, Ubuntu) | `…_amd64.deb` — about 14 MB |
-| Linux (anything else) | `…_amd64.AppImage` — about 94 MB |
-| Self-host the web app | `signet-web.tar.gz` — about 13 MB |
+| **Which do I have?** | Any Mac. One file covers both Intel and Apple silicon, so there is nothing to choose. |
+| **Download** | the file ending **`.dmg`** |
+| **Then** | Open it and drag **Signet** into Applications. |
 
-**[Get the latest release →](https://github.com/ebinrajiiit/Signet/releases/latest)**
+### On Windows
 
-Nothing is code-signed yet, so macOS and Windows will warn on first open. Check
-your download against `SHA256SUMS` in the release.
+| | |
+| --- | --- |
+| **Which do I have?** | Any Windows 10 or 11 PC. |
+| **Download** | the file ending **`.msi`** |
+| **Then** | Double-click it and follow the installer. |
 
-Each build carries its own OCR language data for English, Malayalam and Hindi,
-which is why the downloads are large — and why OCR works with the network off.
+### On Linux
+
+| | |
+| --- | --- |
+| **Ubuntu, Debian, Mint, Pop!\_OS** | the file ending **`.deb`** — double-click it, or `sudo apt install ./Signet_*.deb` |
+| **Fedora, Arch, openSUSE, anything else** | the file ending **`.AppImage`** — `chmod +x Signet_*.AppImage` then run it. Nothing is installed; the single file is the whole program. |
+
+### Running your own copy for a whole office
+
+`signet-web.tar.gz` is the web version. Unpack it into any folder your web
+server serves and everyone on your network can use Signet in a browser, still
+with nothing leaving their own machine. No database, no backend, no
+configuration.
+
+---
+
+### The first time you open it, your computer will warn you
+
+Signet is not code-signed yet — that needs a paid certificate from Apple and
+from a Windows authority, which is on the list. Until then both systems say an
+unidentified developer made this. It is us, and here is how to get past it:
+
+- **macOS:** right-click (or Control-click) **Signet** in Applications and
+  choose **Open**, then **Open** again in the dialog. Only needed once.
+  Double-clicking the first time gives you no Open button, which is why this
+  looks worse than it is.
+- **Windows:** SmartScreen shows a blue box. Click **More info**, then
+  **Run anyway**.
+
+If you would rather verify the download first, every release includes
+`SHA256SUMS`. Compare it with `shasum -a 256 <file>` on macOS or Linux, or
+`Get-FileHash <file>` in Windows PowerShell.
+
+Each build is large because it carries its own OCR language data for English,
+Malayalam and Hindi, rather than fetching them later — which is exactly why OCR
+keeps working with the network switched off.
 
 ## Try it first
 
