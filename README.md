@@ -69,39 +69,31 @@ the software holding its students' records without taking anyone's word for it.
 
 ## Download
 
-**[Open the latest release →](https://github.com/ebinrajiiit/Signet/releases/latest)**,
-then pick the one file that matches your computer. If you are not sure which you
-have, the first column says how to tell.
+Pick the line that matches your computer. The download starts as soon as you
+click, and the next section says what to do with the file.
 
-### On a Mac
+<!-- downloads:start -->
+| Your computer | Click to download | Size |
+| --- | --- | --- |
+| **Mac** — any Mac, Intel or Apple silicon | **[Signet_0.1.1_universal.dmg](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.1/Signet_0.1.1_universal.dmg)** | 30 MB |
+| **Windows** — 10 or 11 | **[Signet_0.1.1_x64_en-US.msi](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.1/Signet_0.1.1_x64_en-US.msi)** | 14 MB |
+| **Linux** — Ubuntu, Debian, Mint, Pop!_OS | **[Signet_0.1.1_amd64.deb](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.1/Signet_0.1.1_amd64.deb)** | 14 MB |
+| **Linux** — Fedora, Arch, openSUSE, anything else | **[Signet_0.1.1_amd64.AppImage](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.1/Signet_0.1.1_amd64.AppImage)** | 94 MB |
+| **A whole office** — serve it from your own machine | **[signet-web.tar.gz](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.1/signet-web.tar.gz)** | 12 MB |
 
-| | |
-| --- | --- |
-| **Which do I have?** | Any Mac. One file covers both Intel and Apple silicon, so there is nothing to choose. |
-| **Download** | the file ending **`.dmg`** |
-| **Then** | Open it and drag **Signet** into Applications. |
+<sub>Signet 0.1.1 · [every file, with checksums](https://github.com/ebinrajiiit/Signet/releases/tag/v0.1.1)</sub>
+<!-- downloads:end -->
 
-### On Windows
+### What to do with the file you just got
 
-| | |
-| --- | --- |
-| **Which do I have?** | Any Windows 10 or 11 PC. |
-| **Download** | the file ending **`.msi`** |
-| **Then** | Double-click it and follow the installer. |
-
-### On Linux
-
-| | |
-| --- | --- |
-| **Ubuntu, Debian, Mint, Pop!\_OS** | the file ending **`.deb`** — double-click it, or `sudo apt install ./Signet_*.deb` |
-| **Fedora, Arch, openSUSE, anything else** | the file ending **`.AppImage`** — `chmod +x Signet_*.AppImage` then run it. Nothing is installed; the single file is the whole program. |
-
-### Running your own copy for a whole office
-
-`signet-web.tar.gz` is the web version. Unpack it into any folder your web
-server serves and everyone on your network can use Signet in a browser, still
-with nothing leaving their own machine. No database, no backend, no
-configuration.
+- **Mac (`.dmg`)** — open it and drag **Signet** into Applications.
+- **Windows (`.msi`)** — double-click it and follow the installer.
+- **Linux (`.deb`)** — double-click it, or `sudo apt install ./Signet_*.deb`
+- **Linux (`.AppImage`)** — `chmod +x Signet_*.AppImage`, then run it. Nothing
+  is installed: the single file is the whole program.
+- **`signet-web.tar.gz`** — unpack it into any folder your web server serves,
+  and everyone on your network can use Signet in a browser, still with nothing
+  leaving their own machine. No database, no backend, no configuration.
 
 ---
 
