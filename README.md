@@ -75,13 +75,13 @@ click, and the next section says what to do with the file.
 <!-- downloads:start -->
 | Your computer | Click to download | Size |
 | --- | --- | --- |
-| **Mac** — any Mac, Intel or Apple silicon | **[Signet_0.1.1_universal.dmg](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.1/Signet_0.1.1_universal.dmg)** | 30 MB |
-| **Windows** — 10 or 11 | **[Signet_0.1.1_x64_en-US.msi](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.1/Signet_0.1.1_x64_en-US.msi)** | 14 MB |
-| **Linux** — Ubuntu, Debian, Mint, Pop!_OS | **[Signet_0.1.1_amd64.deb](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.1/Signet_0.1.1_amd64.deb)** | 14 MB |
-| **Linux** — Fedora, Arch, openSUSE, anything else | **[Signet_0.1.1_amd64.AppImage](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.1/Signet_0.1.1_amd64.AppImage)** | 94 MB |
-| **A whole office** — serve it from your own machine | **[signet-web.tar.gz](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.1/signet-web.tar.gz)** | 12 MB |
+| **Mac** — any Mac, Intel or Apple silicon | **[Signet_0.1.2_universal.dmg](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.2/Signet_0.1.2_universal.dmg)** | 30 MB |
+| **Windows** — 10 or 11 | **[Signet_0.1.2_x64_en-US.msi](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.2/Signet_0.1.2_x64_en-US.msi)** | 14 MB |
+| **Linux** — Ubuntu, Debian, Mint, Pop!_OS | **[Signet_0.1.2_amd64.deb](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.2/Signet_0.1.2_amd64.deb)** | 14 MB |
+| **Linux** — Fedora, Arch, openSUSE, anything else | **[Signet_0.1.2_amd64.AppImage](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.2/Signet_0.1.2_amd64.AppImage)** | 94 MB |
+| **A whole office** — serve it from your own machine | **[signet-web.tar.gz](https://github.com/ebinrajiiit/Signet/releases/download/v0.1.2/signet-web.tar.gz)** | 12 MB |
 
-<sub>Signet 0.1.1 · [every file, with checksums](https://github.com/ebinrajiiit/Signet/releases/tag/v0.1.1)</sub>
+<sub>Signet 0.1.2 · [every file, with checksums](https://github.com/ebinrajiiit/Signet/releases/tag/v0.1.2)</sub>
 <!-- downloads:end -->
 
 ### What to do with the file you just got
